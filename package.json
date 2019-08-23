@@ -1,0 +1,15 @@
+{
+  "name": "brewery-sql-connector",
+  "version": "1.0.0",
+  "description": "brewery connector for sql datastores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josh Mante",
+  "license": "ISC",
+  "dependencies": {
+    "brewery-core": "^1.0.0",
+    "sequelize": "^5.15.2"
+  }
+}
