@@ -1,5 +1,5 @@
 {
-  "name": "brewery-sql-connector",
+  "name": "@brewery/sql-connector",
   "version": "1.0.0",
   "description": "brewery connector for sql datastores",
   "main": "index.js",
@@ -11,5 +11,9 @@
   "dependencies": {
     "brewery-core": "^1.0.0",
     "sequelize": "^5.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.stratpoint.dev:thebrewery/brewery-framework/brewery-sql-connector.git"
   }
 }
