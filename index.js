@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const { connectorFactory } = require('brewery-core');
+const { connectorFactory } = require('@brewery/core');
 const configValidator = require('./configValidator');
 
 /**
