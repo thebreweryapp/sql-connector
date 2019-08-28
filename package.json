@@ -9,7 +9,7 @@
   "author": "Josh Mante",
   "license": "ISC",
   "dependencies": {
-    "@brewery/core": "^1.0.0",
+    "@brewery/core": "^1.0.1",
     "sequelize": "^5.15.2"
   },
   "repository": {
