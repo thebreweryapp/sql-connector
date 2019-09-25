@@ -1,6 +1,6 @@
 {
   "name": "@amberjs/sql-connector",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Amber.js connector for sql datastores",
   "main": "index.js",
   "scripts": {
