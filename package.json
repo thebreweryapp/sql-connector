@@ -1,19 +1,26 @@
 {
-  "name": "@brewery/sql-connector",
+  "name": "@amberjs/sql-connector",
   "version": "1.0.2",
-  "description": "brewery connector for sql datastores",
+  "description": "Amber.js connector for sql datastores",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Josh Mante",
+  "author": "Josh Mante <jmante@stratpoint.com>, Levin Calado <jcalado@stratpoint.com>",
+  "keywords": [
+    "adapters",
+    "connectors",
+    "sql",
+    "brewery",
+    "amberjs"
+  ],
   "license": "ISC",
   "dependencies": {
-    "@brewery/core": "^1.0.1",
+    "@amberjs/core": "^1.0.9",
     "sequelize": "^5.15.2"
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.stratpoint.dev:thebrewery/brewery-framework/brewery-sql-connector.git"
+    "url": "git@gitlab.stratpoint.dev:thebrewery/amberjs/sql-connector.git"
   }
 }

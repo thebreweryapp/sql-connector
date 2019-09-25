@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const { connectorFactory } = require('@brewery/core');
+const { connectorFactory } = require('@amberjs/core');
 const configValidator = require('./configValidator');
 
 /**
@@ -10,6 +10,7 @@ const initialize = (config) => {
   /** validate config input */
   const { isValid, errors } = configValidator(config);
   if(!isValid) {
+    console.log(errors);
     throw new Error('Invalid config');
   }
 
